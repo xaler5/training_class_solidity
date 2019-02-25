@@ -1,0 +1,8 @@
+{
+"port": 8000,
+"files": [
+    "./src/**/*.{html,htm,css,js}",
+    "./build/**/*.{json}"
+],
+"server": { "baseDir": "./oracle-ui" }
+}
