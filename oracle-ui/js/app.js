@@ -6,6 +6,13 @@ angular
         oracleUi.step = 1;
         console.log(oracleUi);
 
+
+        $http.get("./Oracle.json")
+            .then(function(oracleJson) {
+                console.log(oracleJson);
+            })
+
+        
         oracleUi.connect = function (event, host, address) {
             event.preventDefault();
 
