@@ -4,5 +4,5 @@
     "./src/**/*.{html,htm,css,js}",
     "./build/**/*.{json}"
 ],
-"server": { "baseDir": "./oracle-ui" }
+"server": { "baseDir": "./ui" }
 }

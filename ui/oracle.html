@@ -1,0 +1,74 @@
+<html ng-app="oracleUi">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://github.com/ethereum/web3.js/blob/develop/dist/web3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="js/app.js"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body ng-controller="oracleUiController as oracleUi">
+
+        <div id="toast-connect" role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false" class="toast" style="position: absolute; top: 20px; right: 20px;">
+            <div class="toast-header">
+                <strong class="mr-auto"></strong>
+                <small>Conected to host: <span ng-bind="oracleUi.host"></span></small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body">
+                Contract address:  <span ng-bind="oracleUi.address"></span>
+            </div>
+        </div>
+
+        <div ng-if="oracleUi.step == 1">
+            <div id="host-card" class="card margin-auto" style="width: 18rem;">
+                <img src="./img/smart-contract.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <fieldset ng-disabled="oracleUi.connecting">
+                        <form action="" ng-submit="oracleUi.connect($event, oracleUi.host, oracleUi.address)">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="host" id="host" ng-model="oracleUi.host" placeholder="host">
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="address" id="address" ng-model="oracleUi.address" placeholder="Contract Address">
+                            </div>
+
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block" type="submit">Connect</button>
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+        <div ng-if="oracleUi.step == 2">
+                <div id="host-card" class="card margin-auto" style="width: 18rem;">
+                    <img src="./img/dollar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <fieldset ng-disabled="oracleUi.settingPrice">
+                            <form action="" ng-submit="oracleUi.setPrice($event, oracleUi.price)">
+                                <div class="form-group">
+                                     Current price: <span ng-bind="oracleUi.currentPrice"></span> €
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="price" id="price" ng-model="oracleUi.price" placeholder="price">
+                                </div>
+
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block" type="submit">Set price</button>
+                                </div>
+                            </form>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
