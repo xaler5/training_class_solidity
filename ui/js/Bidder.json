@@ -9815,22 +9815,10 @@
       "links": {},
       "address": "0x77B90589cf68c24127cD5b723445EA1167D8beA0",
       "transactionHash": "0xd70ebd7242221816b0605baefb54539e56c57b177ea2f3bced0f93edd720ceec"
-    },
-    "1551223610967": {
-      "events": {},
-      "links": {},
-      "address": "0x3d17D427e6233C7D2b754b208243D46EB05eD8A9",
-      "transactionHash": "0xf175bae94d0baca6b31678eea1c4418e0e9b9fc75757fc2571d33bd07faac96b"
-    },
-    "1551223910289": {
-      "events": {},
-      "links": {},
-      "address": "0x1536E0697cfC521cE83d5483f32CE5848ac768a2",
-      "transactionHash": "0x474493082257006f4f2eca679ad8bea13dc3cac1ba826951b191a3e49d6713bf"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-02-26T23:44:21.536Z",
+  "updatedAt": "2019-02-26T22:55:13.940Z",
   "devdoc": {
     "methods": {}
   },

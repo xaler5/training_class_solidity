@@ -4,5 +4,6 @@
     "./src/**/*.{html,htm,css,js}",
     "./build/**/*.{json}"
 ],
-"server": { "baseDir": "./ui" }
+"server": { 
+    "baseDir": "./ui"}
 }
