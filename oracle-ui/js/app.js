@@ -14,12 +14,11 @@ angular
                 console.log(json);
             })
 
-        
+
         oracleUi.connect = function (event, host, address) {
             event.preventDefault();
             //here host and address are undefined
             console.log("HELLO");
-            console.log(event);
             console.log(host);
             console.log(address);
             console.log(oracleUi.host);
@@ -37,8 +36,8 @@ angular
             console.log('connected');
 
             console.log('connecting to ', host);
-            
-            
+
+
             $timeout(function () {
                 oracleUi.connecting = true;
                 $('#toast-connect').toast('show');

@@ -30,15 +30,15 @@
                 <img src="./img/smart-contract.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <fieldset ng-disabled="oracleUi.connecting">
-                        <form action="" ng-submit="oracleUi.connect($event)">
+                        <form action="" ng-submit="oracleUi.connect($event, oracleUi.host, oracleUi.address)">
                             <div class="form-group">
-                                <input class="form-control" type="text" name="host" id="host" ng-bind="oracleUi.host" placeholder="host">
+                                <input class="form-control" type="text" name="host" id="host" ng-model="oracleUi.host" placeholder="host">
                             </div>
-    
+
                             <div class="form-group">
-                                <input class="form-control" type="text" name="address" id="address" ng-bind="oracleUi.address" placeholder="Contract Address">
+                                <input class="form-control" type="text" name="address" id="address" ng-model="oracleUi.address" placeholder="Contract Address">
                             </div>
-    
+
                             <div class="form-group">
                                 <button class="btn btn-primary btn-block" type="submit">Connect</button>
                             </div>
@@ -55,13 +55,9 @@
                         <fieldset ng-disabled="oracleUi.settingPrice">
                             <form action="" ng-submit="oracleUi.setPrice($event)">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" name="host" id="host" ng-bind="oracleUi.host" placeholder="host">
+                                    <input class="form-control" type="text" name="price" id="price" ng-model="oracleUi.price" placeholder="price">
                                 </div>
-        
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="contract" id="contract" ng-bind="oracleUi.contract" placeholder="Contract Address">
-                                </div>
-        
+
                                 <div class="form-group">
                                     <button class="btn btn-primary btn-block" type="submit">Connect</button>
                                 </div>
