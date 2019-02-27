@@ -1,9 +1,17 @@
 {
-"port": 8000,
-"files": [
-    "./src/**/*.{html,htm,css,js}",
-    "./build/**/*.{json}"
-],
-"server": { 
-    "baseDir": "./ui"}
+    "port": 8000,
+    "files": [
+        "./src/**/*.{html,htm,css,js}",
+        "./build/**/*.{json}"
+    ],
+    "server": {
+        "baseDir": "./ui"
+    },
+    "ghostMode": {
+       "clicks": false,
+       "forms": false,
+       "scroll": false
+   },
+
+    "ghostMode": false
 }
