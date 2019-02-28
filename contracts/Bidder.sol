@@ -84,7 +84,7 @@ contract Bidder {
         }
     }
 
-    function getLatestExchangeRate() internal view returns(uint) {
+    function getLatestExchangeRate() public view returns(uint) {
         return oracle.last_exchange_rate();
     }
 

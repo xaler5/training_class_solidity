@@ -1,7 +1,6 @@
 angular
     .module('gameUi', [])
     .controller('gameUiController', function ($http, $timeout, $scope, $location) {
-
         var gameUi = this;
         var bidderJson;
         var bidderContract;
@@ -22,6 +21,8 @@ angular
             this.betChoice = betChoice;
             this.oracleCurrentRate = oracleCurrentRate;
             this.balance = balance;
+            this.winner = false;
+            this.loser = false;
 
             return this;
         }
@@ -29,7 +30,7 @@ angular
         gameUi.step = 1;
         gameUi.master = /\?master/.test(location.search);
         gameUi.players = [];
-        gameUi.winners = [];
+        gameUi.currentRate;
 
         $http.get("js/Bidder.json")
             .then(function(json) {
@@ -37,8 +38,16 @@ angular
             }
         )
 
+        var loadValues = function(error, result) {
+            $timeout(function() {
+                gameUi.currentRate = result.toNumber() / 10000;
+            });
+        };
+
         gameUi.connect = function (event, host, address) {
             event.preventDefault();
+
+            gameUi.connecting = true;
 
             web3 = new Web3(new Web3.providers.HttpProvider(host));
 
@@ -51,7 +60,6 @@ angular
             });
 
             bidderContract.getPlayerCount(function(error, result) {
-
                 for(var i = 0; i < result.toNumber(); i++) {
                     bidderContract.getPlayer(i, function(error, result) {
                         var balance = web3.fromWei(web3.eth.getBalance(result[0]).toNumber(), 'ether');
@@ -60,7 +68,7 @@ angular
                             result[3],
                             result[0],
                             betAmount,
-                            result[4] ? "It goes up" : "It goes down",
+                            result[4],
                             result[2].toNumber() / 10000,
                             balance
                         )
@@ -70,10 +78,13 @@ angular
                 }
             });
 
-            gameUi.connecting = true;
+            bidderContract.getLatestExchangeRate(function(error, result) {
+                $timeout(function() {
+                    gameUi.currentRate = result.toNumber() / 10000;
+                });
+            });
 
             bidderContract.PlayerCreated({fromBlock: "latest"},function(error, result){
-
                 if (!error) {
                     var balance = web3.fromWei(web3.eth.getBalance(result.args.adr).toNumber(), 'ether');
                     var betAmount = web3.fromWei(result.args.betAmount.toNumber(), 'ether');
@@ -81,84 +92,76 @@ angular
                         result.args.name,
                         result.args.adr,
                         betAmount,
-                        result.args.bet ? "It goes up" : "It goes down",
+                        result.args.bet,
                         result.args.oracleCurrentValue.toNumber() / 10000,
                         balance
                     );
+
                     $timeout(function() {
                         gameUi.players.push(tmpPlayer);
                     });
                 } else {
-                      console.log("Error recieving createdPlayer")
+                      console.log("Error receiving createdPlayer")
                       console.log(error);
                 }
-             });
+            });
 
-             bidderContract.Winner({fromBlock: "latest"},function(error, result){
-                 if (!error) {
-                       console.log("WINNER");
-                       for(var i = 0; i < gameUi.players.length; i++) {
-                           if(gameUi.players[i].address == result.args.winner) {
-                               console.log(gameUi.players[i]);
-                               gameUi.winners.push(gameUi.players[i]);
-                           }
-                       }
-                 } else {
-                       console.log("Error recieving winner")
-                       console.log(error);
-                 }
-              });
-
-              bidderContract.Loser({fromBlock: "latest"},function(error, result){
-                  if (!error) {
-                      console.log("LOSER");
-                      for(var i = 0; i < gameUi.players.length; i++) {
-                          if(gameUi.players[i].address == result.args.loser) {
-                              console.log(gameUi.players[i])
-                          }
-                      }
-                  } else {
-                        console.log("Error recieving loser event")
+            bidderContract.Winner({fromBlock: "latest"},function(error, result){
+                $timeout(function() {
+                    if (error) {
+                        console.log("Error recieving winner")
                         console.log(error);
-                  }
-               });
+                        return;
+                    }
+
+                    for(var i = 0; i < gameUi.players.length; i++) {
+                        if(gameUi.players[i].address == result.args.winner) {
+                            gameUi.players[i].winner = true;
+                            return;
+                        }
+                    }
+                });
+            });
+
+            bidderContract.Loser({fromBlock: "latest"},function(error, result){
+                if (error) {
+                    console.log("Error recieving loser")
+                    console.log(error);
+                    return;
+                }
+
+                $timeout(function() {
+                    for(var i = 0; i < gameUi.players.length; i++) {
+                        if(gameUi.players[i].address == result.args.loser) {
+                            gameUi.players[i].loser = true;
+                            return;
+                        }
+                    }
+                });
+            });
 
             $timeout(function () {
-                gameUi.connecting = true;
+                gameUi.connecting = false;
                 $('#toast-connect').toast('show');
                 gameUi.step = 2;
             }, 2000)
 
-        }
-
-        gameUi.closeMatch = function () {
-            console.log('close match');
-            bidderContract.closeMatch({from: accounts[0], gas: 2000000}, function(err,res) {
-                if(err)  {
-                    console.log(err);
-                } else {
-                    $timeout(function () {
-                        gameUi.players = gameUi.winners;
-                    }, 1000);
-                }
-            });
-
+            $timeout(function () {
+                $('#toast-connect').toast('hide');
+            }, 6000)
         }
 
         gameUi.createPlayer = function (event, playerName, playerBet, playerAmount) {
             event.preventDefault();
-            if(!playerName) return null;
 
-            var bet;
-            if(playerBet == "It will go up") bet = true;
-            else if(playerBet == "It will go down") bet = false;
-            else return null;
+            var bet =!!parseInt(playerBet);
 
-            //convert amount to wei
-            if(!playerAmount) return null;
-            amount = playerAmount * 10e17;
+            if(!playerName || !playerAmount) return;
 
             gameUi.creatingPlayer = true;
+
+            //convert amount to wei
+            amount = playerAmount * 10e17;
 
             bidderContract.createPlayer(
                 playerName,
@@ -169,12 +172,30 @@ angular
                     gas: 2000000
                 },
                 function(err, res) {
-                    if(err) console.log(err);
+                    if(err) {
+                        console.log(err);
+                        gameUi.creatingPlayer = true;
+                    }
                 }
             )
 
-            $timeout(function () {
-                gameUi.creatingPlayer = true;
-            }, 2000)
+        }
+
+        gameUi.reset = function () {
+            $timeout(function() {
+                gameUi.players = [];
+                gameUi.creatingPlayer = false;
+            });
+        }
+
+        gameUi.closeMatch = function () {
+            bidderContract.closeMatch({from: accounts[0], gas: 6000000}, function(err,res) {
+                if(err)  {
+                    console.log(err);
+                    return;
+                }
+
+                bidderContract.getLatestExchangeRate(loadValues)
+            });
         }
     })

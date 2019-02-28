@@ -30,6 +30,15 @@ angular
             oracleUi.currentPrice = oracleContract.last_exchange_rate().toString(10) / 10000;
             oracleUi.connecting = true;
 
+            oracleContract.NewValue({fromBlock: "latest"},function(error, result){
+
+                if (!error) {
+                    $timeout(function () {
+                       oracleUi.currentPrice = result.args.value.toNumber() / 10000;
+                    }, 1000)
+                }
+            });
+
             $timeout(function () {
                 oracleUi.connecting = true;
                 $('#toast-connect').toast('show');
