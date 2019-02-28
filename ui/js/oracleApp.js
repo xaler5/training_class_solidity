@@ -45,9 +45,11 @@ angular
             oracleContract.set(
                 finalPrice,
                 {from: accounts[0]},
-                (error, result) => {
-                    $timeout(() => oracleUi.currentPrice = oracleContract.last_exchange_rate().toString(10) / 10000)
+                function(error, result) {
+                    $timeout(function () {
+                      oracleUi.currentPrice = oracleContract.last_exchange_rate().toString(10) / 10000;
+                    }, 1000)
                 }
-            )
+            );
         }
     })

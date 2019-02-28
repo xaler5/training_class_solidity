@@ -10,6 +10,7 @@ contract Bidder {
 
     event Loser(address loser);
     event Winner(address winner);
+    event PlayerCreated(string name, address adr, uint oracleCurrentValue, bool bet, uint betAmount);
 
     modifier restricted() {
         require(msg.sender == owner, "Unauthorized action");
@@ -34,6 +35,8 @@ contract Bidder {
             bet
         );
         players.push(tmp);
+
+        emit PlayerCreated(name, msg.sender, oracleValue, bet, msg.value);
     }
 
     function getPlayerCount() public view returns(uint) {
