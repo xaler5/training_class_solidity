@@ -107,13 +107,12 @@ angular
             });
 
             bidderContract.Winner({fromBlock: "latest"},function(error, result){
+                if (error) {
+                    console.log("Error recieving winner")
+                    console.log(error);
+                    return;
+                }
                 $timeout(function() {
-                    if (error) {
-                        console.log("Error recieving winner")
-                        console.log(error);
-                        return;
-                    }
-
                     for(var i = 0; i < gameUi.players.length; i++) {
                         if(gameUi.players[i].address == result.args.winner) {
                             gameUi.players[i].winner = true;
@@ -189,12 +188,11 @@ angular
         }
 
         gameUi.closeMatch = function () {
-            bidderContract.closeMatch({from: accounts[0], gas: 6000000}, function(err,res) {
+            bidderContract.closeMatch({from: accounts[0], gas: 6721974}, function(err,res) {
                 if(err)  {
                     console.log(err);
                     return;
                 }
-
                 bidderContract.getLatestExchangeRate(loadValues)
             });
         }

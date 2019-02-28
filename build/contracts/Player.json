@@ -118,35 +118,32 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50604051610594380380610594833981018060405260a081101561003357600080fd5b81019080805190602001909291908051906020019092919080519060200190929190805164010000000081111561006957600080fd5b8281019050602081018481111561007f57600080fd5b815185600182028301116401000000008211171561009c57600080fd5b505092919060200180519060200190929190505050846000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508360018190555082600281905550816003908051906020019061011592919061013a565b5080600460006101000a81548160ff02191690831515021790555050505050506101df565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061017b57805160ff19168380011785556101a9565b828001600101855582156101a9579182015b828111156101a857825182559160200191906001019061018d565b5b5090506101b691906101ba565b5090565b6101dc91905b808211156101d85760008160009055506001016101c0565b5090565b90565b6103a6806101ee6000396000f3fe608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806301e3eb271461007d57806306fdde03146100d05780630aca7f9514610160578063ac765419146101b7578063d24257c0146101e2578063e0b85dcf1461020d575b600080fd5b34801561008957600080fd5b506100b6600480360360208110156100a057600080fd5b810190808035906020019092919050505061023c565b604051808215151515815260200191505060405180910390f35b3480156100dc57600080fd5b506100e5610298565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012557808201518184015260208101905061010a565b50505050905090810190601f1680156101525780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561016c57600080fd5b50610175610336565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101c357600080fd5b506101cc61035b565b6040518082815260200191505060405180910390f35b3480156101ee57600080fd5b506101f7610361565b6040518082815260200191505060405180910390f35b34801561021957600080fd5b50610222610367565b604051808215151515815260200191505060405180910390f35b60008160025411801561025c5750600460009054906101000a900460ff16155b8061028057508160025410801561027f5750600460009054906101000a900460ff165b5b1561028e5760019050610293565b600090505b919050565b60038054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561032e5780601f106103035761010080835404028352916020019161032e565b820191906000526020600020905b81548152906001019060200180831161031157829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60025481565b60015481565b600460009054906101000a900460ff168156fea165627a7a72305820cfe48cf39272c9576bb72ad4844dc869fd032bbd847e862f268090640ff841770029",
-  "deployedBytecode": "0x608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806301e3eb271461007d57806306fdde03146100d05780630aca7f9514610160578063ac765419146101b7578063d24257c0146101e2578063e0b85dcf1461020d575b600080fd5b34801561008957600080fd5b506100b6600480360360208110156100a057600080fd5b810190808035906020019092919050505061023c565b604051808215151515815260200191505060405180910390f35b3480156100dc57600080fd5b506100e5610298565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012557808201518184015260208101905061010a565b50505050905090810190601f1680156101525780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561016c57600080fd5b50610175610336565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101c357600080fd5b506101cc61035b565b6040518082815260200191505060405180910390f35b3480156101ee57600080fd5b506101f7610361565b6040518082815260200191505060405180910390f35b34801561021957600080fd5b50610222610367565b604051808215151515815260200191505060405180910390f35b60008160025411801561025c5750600460009054906101000a900460ff16155b8061028057508160025410801561027f5750600460009054906101000a900460ff165b5b1561028e5760019050610293565b600090505b919050565b60038054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561032e5780601f106103035761010080835404028352916020019161032e565b820191906000526020600020905b81548152906001019060200180831161031157829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60025481565b60015481565b600460009054906101000a900460ff168156fea165627a7a72305820cfe48cf39272c9576bb72ad4844dc869fd032bbd847e862f268090640ff841770029",
-  "sourceMap": "34:685:3:-;;;193:260;8:9:-1;5:2;;;30:1;27;20:12;5:2;193:260:3;;;;;;;;;;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;193:260:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;71:11;66:3;62:21;55:28;;123:4;118:3;114:14;159:9;141:16;138:31;135:2;;;182:1;179;172:12;135:2;219:3;213:10;330:9;325:1;311:12;307:20;289:16;285:43;282:58;261:11;247:12;244:29;233:115;230:2;;;361:1;358;351:12;230:2;0:372;;193:260:3;;;;;;;;;;;;;;;;;326:4;320:3;;:10;;;;;;;;;;;;;;;;;;348;336:9;:22;;;;384:18;364:17;:38;;;;415:5;408:4;:12;;;;;;;;;;;;:::i;:::-;;438:10;426:9;;:22;;;;;;;;;;;;;;;;;;193:260;;;;;34:685;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "34:685:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;457:260;;8:9:-1;5:2;;;30:1;27;20:12;5:2;457:260:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;457:260:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;144:18;;8:9:-1;5:2;;;30:1;27;20:12;5:2;144:18:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;144:18:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;54:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;54:26:3;;;;;;;;;;;;;;;;;;;;;;;;;;;110:29;;8:9:-1;5:2;;;30:1;27;20:12;5:2;110:29:3;;;;;;;;;;;;;;;;;;;;;;;85:21;;8:9:-1;5:2;;;30:1;27;20:12;5:2;85:21:3;;;;;;;;;;;;;;;;;;;;;;;167;;8:9:-1;5:2;;;30:1;27;20:12;5:2;167:21:3;;;;;;;;;;;;;;;;;;;;;;;;;;;457:260;523:4;571:10;551:17;;:30;:44;;;;;586:9;;;;;;;;;;;585:10;551:44;:101;;;;629:10;609:17;;:30;:43;;;;;643:9;;;;;;;;;;;609:43;551:101;537:156;;;680:4;673:11;;;;537:156;707:5;700:12;;457:260;;;;:::o;144:18::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;54:26::-;;;;;;;;;;;;;:::o;110:29::-;;;;:::o;85:21::-;;;;:::o;167:::-;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.21 <0.6.0;\n\ncontract Player {\n  address payable public adr;\n\n  uint public betAmount;\n  uint public currentOracleRate;\n\n  string public name;\n\n  bool public betChoice;\n\n  constructor(address payable _adr, uint _betAmount, uint _currentOracleRate, string memory _name, bool _betChoice) public {\n    adr = _adr;\n    betAmount = _betAmount;\n    currentOracleRate = _currentOracleRate;\n    name = _name;\n    betChoice = _betChoice;\n  }\n\n  function checkGame(\n      uint oracleRate\n  ) public view returns(bool) {\n      if(\n          currentOracleRate > oracleRate && !betChoice ||\n          currentOracleRate < oracleRate && betChoice\n      ) {\n          return true;\n      }\n      return false;\n  }\n}\n",
+  "bytecode": "0x608060405234801561001057600080fd5b50604051610594380380610594833981018060405260a081101561003357600080fd5b81019080805190602001909291908051906020019092919080519060200190929190805164010000000081111561006957600080fd5b8281019050602081018481111561007f57600080fd5b815185600182028301116401000000008211171561009c57600080fd5b505092919060200180519060200190929190505050846000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508360018190555082600281905550816003908051906020019061011592919061013a565b5080600460006101000a81548160ff02191690831515021790555050505050506101df565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061017b57805160ff19168380011785556101a9565b828001600101855582156101a9579182015b828111156101a857825182559160200191906001019061018d565b5b5090506101b691906101ba565b5090565b6101dc91905b808211156101d85760008160009055506001016101c0565b5090565b90565b6103a6806101ee6000396000f3fe608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806301e3eb271461007d57806306fdde03146100d05780630aca7f9514610160578063ac765419146101b7578063d24257c0146101e2578063e0b85dcf1461020d575b600080fd5b34801561008957600080fd5b506100b6600480360360208110156100a057600080fd5b810190808035906020019092919050505061023c565b604051808215151515815260200191505060405180910390f35b3480156100dc57600080fd5b506100e5610298565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012557808201518184015260208101905061010a565b50505050905090810190601f1680156101525780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561016c57600080fd5b50610175610336565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101c357600080fd5b506101cc61035b565b6040518082815260200191505060405180910390f35b3480156101ee57600080fd5b506101f7610361565b6040518082815260200191505060405180910390f35b34801561021957600080fd5b50610222610367565b604051808215151515815260200191505060405180910390f35b60008160025411801561025c5750600460009054906101000a900460ff16155b8061028057508160025410801561027f5750600460009054906101000a900460ff165b5b1561028e5760019050610293565b600090505b919050565b60038054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561032e5780601f106103035761010080835404028352916020019161032e565b820191906000526020600020905b81548152906001019060200180831161031157829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60025481565b60015481565b600460009054906101000a900460ff168156fea165627a7a7230582040c73d7e93a9dfaa42d0f16967e1270ef638db52a137097f6a38f601db8ea93f0029",
+  "deployedBytecode": "0x608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806301e3eb271461007d57806306fdde03146100d05780630aca7f9514610160578063ac765419146101b7578063d24257c0146101e2578063e0b85dcf1461020d575b600080fd5b34801561008957600080fd5b506100b6600480360360208110156100a057600080fd5b810190808035906020019092919050505061023c565b604051808215151515815260200191505060405180910390f35b3480156100dc57600080fd5b506100e5610298565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561012557808201518184015260208101905061010a565b50505050905090810190601f1680156101525780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561016c57600080fd5b50610175610336565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101c357600080fd5b506101cc61035b565b6040518082815260200191505060405180910390f35b3480156101ee57600080fd5b506101f7610361565b6040518082815260200191505060405180910390f35b34801561021957600080fd5b50610222610367565b604051808215151515815260200191505060405180910390f35b60008160025411801561025c5750600460009054906101000a900460ff16155b8061028057508160025410801561027f5750600460009054906101000a900460ff165b5b1561028e5760019050610293565b600090505b919050565b60038054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561032e5780601f106103035761010080835404028352916020019161032e565b820191906000526020600020905b81548152906001019060200180831161031157829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60025481565b60015481565b600460009054906101000a900460ff168156fea165627a7a7230582040c73d7e93a9dfaa42d0f16967e1270ef638db52a137097f6a38f601db8ea93f0029",
+  "sourceMap": "25:685:3:-;;;184:260;8:9:-1;5:2;;;30:1;27;20:12;5:2;184:260:3;;;;;;;;;;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;184:260:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;19:11:-1;14:3;11:20;8:2;;;44:1;41;34:12;8:2;71:11;66:3;62:21;55:28;;123:4;118:3;114:14;159:9;141:16;138:31;135:2;;;182:1;179;172:12;135:2;219:3;213:10;330:9;325:1;311:12;307:20;289:16;285:43;282:58;261:11;247:12;244:29;233:115;230:2;;;361:1;358;351:12;230:2;0:372;;184:260:3;;;;;;;;;;;;;;;;;317:4;311:3;;:10;;;;;;;;;;;;;;;;;;339;327:9;:22;;;;375:18;355:17;:38;;;;406:5;399:4;:12;;;;;;;;;;;;:::i;:::-;;429:10;417:9;;:22;;;;;;;;;;;;;;;;;;184:260;;;;;25:685;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "25:685:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;448:260;;8:9:-1;5:2;;;30:1;27;20:12;5:2;448:260:3;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;448:260:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;135:18;;8:9:-1;5:2;;;30:1;27;20:12;5:2;135:18:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;135:18:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;45:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;45:26:3;;;;;;;;;;;;;;;;;;;;;;;;;;;101:29;;8:9:-1;5:2;;;30:1;27;20:12;5:2;101:29:3;;;;;;;;;;;;;;;;;;;;;;;76:21;;8:9:-1;5:2;;;30:1;27;20:12;5:2;76:21:3;;;;;;;;;;;;;;;;;;;;;;;158;;8:9:-1;5:2;;;30:1;27;20:12;5:2;158:21:3;;;;;;;;;;;;;;;;;;;;;;;;;;;448:260;514:4;562:10;542:17;;:30;:44;;;;;577:9;;;;;;;;;;;576:10;542:44;:101;;;;620:10;600:17;;:30;:43;;;;;634:9;;;;;;;;;;;600:43;542:101;528:156;;;671:4;664:11;;;;528:156;698:5;691:12;;448:260;;;;:::o;135:18::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;45:26::-;;;;;;;;;;;;;:::o;101:29::-;;;;:::o;76:21::-;;;;:::o;158:::-;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity <0.6.0;\n\ncontract Player {\n  address payable public adr;\n\n  uint public betAmount;\n  uint public currentOracleRate;\n\n  string public name;\n\n  bool public betChoice;\n\n  constructor(address payable _adr, uint _betAmount, uint _currentOracleRate, string memory _name, bool _betChoice) public {\n    adr = _adr;\n    betAmount = _betAmount;\n    currentOracleRate = _currentOracleRate;\n    name = _name;\n    betChoice = _betChoice;\n  }\n\n  function checkGame(\n      uint oracleRate\n  ) public view returns(bool) {\n      if(\n          currentOracleRate > oracleRate && !betChoice ||\n          currentOracleRate < oracleRate && betChoice\n      ) {\n          return true;\n      }\n      return false;\n  }\n}\n",
   "sourcePath": "/home/administrator/Escritorio/training_class_solidity/contracts/Player.sol",
   "ast": {
     "absolutePath": "/home/administrator/Escritorio/training_class_solidity/contracts/Player.sol",
     "exportedSymbols": {
       "Player": [
-        430
+        438
       ]
     },
-    "id": 431,
+    "id": 439,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 359,
+        "id": 367,
         "literals": [
           "solidity",
-          ">=",
-          "0.4",
-          ".21",
           "<",
           "0.6",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:32:3"
+        "src": "0:23:3"
       },
       {
         "baseContracts": [],
@@ -154,20 +151,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 430,
+        "id": 438,
         "linearizedBaseContracts": [
-          430
+          438
         ],
         "name": "Player",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 361,
+            "id": 369,
             "name": "adr",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "54:26:3",
+            "scope": 438,
+            "src": "45:26:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -175,10 +172,10 @@
               "typeString": "address payable"
             },
             "typeName": {
-              "id": 360,
+              "id": 368,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "54:15:3",
+              "src": "45:15:3",
               "stateMutability": "payable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address_payable",
@@ -190,11 +187,11 @@
           },
           {
             "constant": false,
-            "id": 363,
+            "id": 371,
             "name": "betAmount",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "85:21:3",
+            "scope": 438,
+            "src": "76:21:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -202,10 +199,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 362,
+              "id": 370,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "85:4:3",
+              "src": "76:4:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -216,11 +213,11 @@
           },
           {
             "constant": false,
-            "id": 365,
+            "id": 373,
             "name": "currentOracleRate",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "110:29:3",
+            "scope": 438,
+            "src": "101:29:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -228,10 +225,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 364,
+              "id": 372,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "110:4:3",
+              "src": "101:4:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -242,11 +239,11 @@
           },
           {
             "constant": false,
-            "id": 367,
+            "id": 375,
             "name": "name",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "144:18:3",
+            "scope": 438,
+            "src": "135:18:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -254,10 +251,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 366,
+              "id": 374,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "144:6:3",
+              "src": "135:6:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -268,11 +265,11 @@
           },
           {
             "constant": false,
-            "id": 369,
+            "id": 377,
             "name": "betChoice",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "167:21:3",
+            "scope": 438,
+            "src": "158:21:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -280,10 +277,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 368,
+              "id": 376,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "167:4:3",
+              "src": "158:4:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -294,102 +291,10 @@
           },
           {
             "body": {
-              "id": 402,
+              "id": 410,
               "nodeType": "Block",
-              "src": "314:139:3",
+              "src": "305:139:3",
               "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 384,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "id": 382,
-                      "name": "adr",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 361,
-                      "src": "320:3:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 383,
-                      "name": "_adr",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 371,
-                      "src": "326:4:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "src": "320:10:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address_payable",
-                      "typeString": "address payable"
-                    }
-                  },
-                  "id": 385,
-                  "nodeType": "ExpressionStatement",
-                  "src": "320:10:3"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 388,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "id": 386,
-                      "name": "betAmount",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 363,
-                      "src": "336:9:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 387,
-                      "name": "_betAmount",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 373,
-                      "src": "348:10:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "src": "336:22:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "id": 389,
-                  "nodeType": "ExpressionStatement",
-                  "src": "336:22:3"
-                },
                 {
                   "expression": {
                     "argumentTypes": null,
@@ -401,14 +306,14 @@
                     "leftHandSide": {
                       "argumentTypes": null,
                       "id": 390,
-                      "name": "currentOracleRate",
+                      "name": "adr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 365,
-                      "src": "364:17:3",
+                      "referencedDeclaration": 369,
+                      "src": "311:3:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
                       }
                     },
                     "nodeType": "Assignment",
@@ -416,25 +321,25 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "id": 391,
-                      "name": "_currentOracleRate",
+                      "name": "_adr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 375,
-                      "src": "384:18:3",
+                      "referencedDeclaration": 379,
+                      "src": "317:4:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
                       }
                     },
-                    "src": "364:38:3",
+                    "src": "311:10:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
                     }
                   },
                   "id": 393,
                   "nodeType": "ExpressionStatement",
-                  "src": "364:38:3"
+                  "src": "311:10:3"
                 },
                 {
                   "expression": {
@@ -447,14 +352,14 @@
                     "leftHandSide": {
                       "argumentTypes": null,
                       "id": 394,
-                      "name": "name",
+                      "name": "betAmount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 367,
-                      "src": "408:4:3",
+                      "referencedDeclaration": 371,
+                      "src": "327:9:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_string_storage",
-                        "typeString": "string storage ref"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
                       }
                     },
                     "nodeType": "Assignment",
@@ -462,25 +367,25 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "id": 395,
-                      "name": "_name",
+                      "name": "_betAmount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 377,
-                      "src": "415:5:3",
+                      "referencedDeclaration": 381,
+                      "src": "339:10:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_string_memory_ptr",
-                        "typeString": "string memory"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
                       }
                     },
-                    "src": "408:12:3",
+                    "src": "327:22:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage",
-                      "typeString": "string storage ref"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
                   "id": 397,
                   "nodeType": "ExpressionStatement",
-                  "src": "408:12:3"
+                  "src": "327:22:3"
                 },
                 {
                   "expression": {
@@ -493,11 +398,103 @@
                     "leftHandSide": {
                       "argumentTypes": null,
                       "id": 398,
+                      "name": "currentOracleRate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 373,
+                      "src": "355:17:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 399,
+                      "name": "_currentOracleRate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 383,
+                      "src": "375:18:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "355:38:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 401,
+                  "nodeType": "ExpressionStatement",
+                  "src": "355:38:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 404,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 402,
+                      "name": "name",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 375,
+                      "src": "399:4:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 403,
+                      "name": "_name",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 385,
+                      "src": "406:5:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "399:12:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 405,
+                  "nodeType": "ExpressionStatement",
+                  "src": "399:12:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 408,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 406,
                       "name": "betChoice",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 369,
-                      "src": "426:9:3",
+                      "referencedDeclaration": 377,
+                      "src": "417:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -507,47 +504,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 399,
+                      "id": 407,
                       "name": "_betChoice",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 379,
-                      "src": "438:10:3",
+                      "referencedDeclaration": 387,
+                      "src": "429:10:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "426:22:3",
+                    "src": "417:22:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 401,
+                  "id": 409,
                   "nodeType": "ExpressionStatement",
-                  "src": "426:22:3"
+                  "src": "417:22:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 403,
+            "id": 411,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 380,
+              "id": 388,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 371,
+                  "id": 379,
                   "name": "_adr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "205:20:3",
+                  "scope": 411,
+                  "src": "196:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -555,10 +552,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 370,
+                    "id": 378,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "205:15:3",
+                    "src": "196:15:3",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -570,11 +567,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 373,
+                  "id": 381,
                   "name": "_betAmount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "227:15:3",
+                  "scope": 411,
+                  "src": "218:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -582,10 +579,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 372,
+                    "id": 380,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "227:4:3",
+                    "src": "218:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -596,11 +593,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 375,
+                  "id": 383,
                   "name": "_currentOracleRate",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "244:23:3",
+                  "scope": 411,
+                  "src": "235:23:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -608,10 +605,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 374,
+                    "id": 382,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "244:4:3",
+                    "src": "235:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -622,11 +619,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 377,
+                  "id": 385,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "269:19:3",
+                  "scope": 411,
+                  "src": "260:19:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -634,10 +631,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 376,
+                    "id": 384,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "269:6:3",
+                    "src": "260:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -648,11 +645,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 379,
+                  "id": 387,
                   "name": "_betChoice",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "290:15:3",
+                  "scope": 411,
+                  "src": "281:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -660,10 +657,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 378,
+                    "id": 386,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "290:4:3",
+                    "src": "281:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -673,25 +670,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "204:102:3"
+              "src": "195:102:3"
             },
             "returnParameters": {
-              "id": 381,
+              "id": 389,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "314:0:3"
+              "src": "305:0:3"
             },
-            "scope": 430,
-            "src": "193:260:3",
+            "scope": 438,
+            "src": "184:260:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 428,
+              "id": 436,
               "nodeType": "Block",
-              "src": "529:188:3",
+              "src": "520:188:3",
               "statements": [
                 {
                   "condition": {
@@ -700,7 +697,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 421,
+                    "id": 429,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -711,7 +708,7 @@
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       },
-                      "id": 415,
+                      "id": 423,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -722,19 +719,19 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 412,
+                        "id": 420,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 410,
+                          "id": 418,
                           "name": "currentOracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 365,
-                          "src": "551:17:3",
+                          "referencedDeclaration": 373,
+                          "src": "542:17:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -744,18 +741,18 @@
                         "operator": ">",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 411,
+                          "id": 419,
                           "name": "oracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 405,
-                          "src": "571:10:3",
+                          "referencedDeclaration": 413,
+                          "src": "562:10:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "551:30:3",
+                        "src": "542:30:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -765,7 +762,7 @@
                       "operator": "&&",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 414,
+                        "id": 422,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -773,15 +770,15 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "585:10:3",
+                        "src": "576:10:3",
                         "subExpression": {
                           "argumentTypes": null,
-                          "id": 413,
+                          "id": 421,
                           "name": "betChoice",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 369,
-                          "src": "586:9:3",
+                          "referencedDeclaration": 377,
+                          "src": "577:9:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -792,7 +789,7 @@
                           "typeString": "bool"
                         }
                       },
-                      "src": "551:44:3",
+                      "src": "542:44:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -806,7 +803,7 @@
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       },
-                      "id": 420,
+                      "id": 428,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -817,19 +814,19 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 418,
+                        "id": 426,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 416,
+                          "id": 424,
                           "name": "currentOracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 365,
-                          "src": "609:17:3",
+                          "referencedDeclaration": 373,
+                          "src": "600:17:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -839,18 +836,18 @@
                         "operator": "<",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 417,
+                          "id": 425,
                           "name": "oracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 405,
-                          "src": "629:10:3",
+                          "referencedDeclaration": 413,
+                          "src": "620:10:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "609:30:3",
+                        "src": "600:30:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -860,50 +857,50 @@
                       "operator": "&&",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 419,
+                        "id": 427,
                         "name": "betChoice",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 369,
-                        "src": "643:9:3",
+                        "referencedDeclaration": 377,
+                        "src": "634:9:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       },
-                      "src": "609:43:3",
+                      "src": "600:43:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "551:101:3",
+                    "src": "542:101:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": null,
-                  "id": 425,
+                  "id": 433,
                   "nodeType": "IfStatement",
-                  "src": "537:156:3",
+                  "src": "528:156:3",
                   "trueBody": {
-                    "id": 424,
+                    "id": 432,
                     "nodeType": "Block",
-                    "src": "661:32:3",
+                    "src": "652:32:3",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 422,
+                          "id": 430,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "680:4:3",
+                          "src": "671:4:3",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -911,10 +908,10 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 409,
-                        "id": 423,
+                        "functionReturnParameters": 417,
+                        "id": 431,
                         "nodeType": "Return",
-                        "src": "673:11:3"
+                        "src": "664:11:3"
                       }
                     ]
                   }
@@ -923,14 +920,14 @@
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "66616c7365",
-                    "id": 426,
+                    "id": 434,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "707:5:3",
+                    "src": "698:5:3",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -938,31 +935,31 @@
                     },
                     "value": "false"
                   },
-                  "functionReturnParameters": 409,
-                  "id": 427,
+                  "functionReturnParameters": 417,
+                  "id": 435,
                   "nodeType": "Return",
-                  "src": "700:12:3"
+                  "src": "691:12:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 429,
+            "id": 437,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "checkGame",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 406,
+              "id": 414,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 405,
+                  "id": 413,
                   "name": "oracleRate",
                   "nodeType": "VariableDeclaration",
-                  "scope": 429,
-                  "src": "483:15:3",
+                  "scope": 437,
+                  "src": "474:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -970,10 +967,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 404,
+                    "id": 412,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "483:4:3",
+                    "src": "474:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -983,19 +980,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "475:27:3"
+              "src": "466:27:3"
             },
             "returnParameters": {
-              "id": 409,
+              "id": 417,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 408,
+                  "id": 416,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 429,
-                  "src": "523:4:3",
+                  "scope": 437,
+                  "src": "514:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1003,10 +1000,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 407,
+                    "id": 415,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "523:4:3",
+                    "src": "514:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1016,44 +1013,41 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "522:6:3"
+              "src": "513:6:3"
             },
-            "scope": 430,
-            "src": "457:260:3",
+            "scope": 438,
+            "src": "448:260:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 431,
-        "src": "34:685:3"
+        "scope": 439,
+        "src": "25:685:3"
       }
     ],
-    "src": "0:720:3"
+    "src": "0:711:3"
   },
   "legacyAST": {
     "absolutePath": "/home/administrator/Escritorio/training_class_solidity/contracts/Player.sol",
     "exportedSymbols": {
       "Player": [
-        430
+        438
       ]
     },
-    "id": 431,
+    "id": 439,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 359,
+        "id": 367,
         "literals": [
           "solidity",
-          ">=",
-          "0.4",
-          ".21",
           "<",
           "0.6",
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:32:3"
+        "src": "0:23:3"
       },
       {
         "baseContracts": [],
@@ -1061,20 +1055,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 430,
+        "id": 438,
         "linearizedBaseContracts": [
-          430
+          438
         ],
         "name": "Player",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 361,
+            "id": 369,
             "name": "adr",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "54:26:3",
+            "scope": 438,
+            "src": "45:26:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1082,10 +1076,10 @@
               "typeString": "address payable"
             },
             "typeName": {
-              "id": 360,
+              "id": 368,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "54:15:3",
+              "src": "45:15:3",
               "stateMutability": "payable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address_payable",
@@ -1097,11 +1091,11 @@
           },
           {
             "constant": false,
-            "id": 363,
+            "id": 371,
             "name": "betAmount",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "85:21:3",
+            "scope": 438,
+            "src": "76:21:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1109,10 +1103,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 362,
+              "id": 370,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "85:4:3",
+              "src": "76:4:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -1123,11 +1117,11 @@
           },
           {
             "constant": false,
-            "id": 365,
+            "id": 373,
             "name": "currentOracleRate",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "110:29:3",
+            "scope": 438,
+            "src": "101:29:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1135,10 +1129,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 364,
+              "id": 372,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "110:4:3",
+              "src": "101:4:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -1149,11 +1143,11 @@
           },
           {
             "constant": false,
-            "id": 367,
+            "id": 375,
             "name": "name",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "144:18:3",
+            "scope": 438,
+            "src": "135:18:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1161,10 +1155,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 366,
+              "id": 374,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "144:6:3",
+              "src": "135:6:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -1175,11 +1169,11 @@
           },
           {
             "constant": false,
-            "id": 369,
+            "id": 377,
             "name": "betChoice",
             "nodeType": "VariableDeclaration",
-            "scope": 430,
-            "src": "167:21:3",
+            "scope": 438,
+            "src": "158:21:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1187,10 +1181,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 368,
+              "id": 376,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "167:4:3",
+              "src": "158:4:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -1201,102 +1195,10 @@
           },
           {
             "body": {
-              "id": 402,
+              "id": 410,
               "nodeType": "Block",
-              "src": "314:139:3",
+              "src": "305:139:3",
               "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 384,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "id": 382,
-                      "name": "adr",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 361,
-                      "src": "320:3:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 383,
-                      "name": "_adr",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 371,
-                      "src": "326:4:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "src": "320:10:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address_payable",
-                      "typeString": "address payable"
-                    }
-                  },
-                  "id": 385,
-                  "nodeType": "ExpressionStatement",
-                  "src": "320:10:3"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 388,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "id": 386,
-                      "name": "betAmount",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 363,
-                      "src": "336:9:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "id": 387,
-                      "name": "_betAmount",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 373,
-                      "src": "348:10:3",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "src": "336:22:3",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "id": 389,
-                  "nodeType": "ExpressionStatement",
-                  "src": "336:22:3"
-                },
                 {
                   "expression": {
                     "argumentTypes": null,
@@ -1308,14 +1210,14 @@
                     "leftHandSide": {
                       "argumentTypes": null,
                       "id": 390,
-                      "name": "currentOracleRate",
+                      "name": "adr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 365,
-                      "src": "364:17:3",
+                      "referencedDeclaration": 369,
+                      "src": "311:3:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
                       }
                     },
                     "nodeType": "Assignment",
@@ -1323,25 +1225,25 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "id": 391,
-                      "name": "_currentOracleRate",
+                      "name": "_adr",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 375,
-                      "src": "384:18:3",
+                      "referencedDeclaration": 379,
+                      "src": "317:4:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
                       }
                     },
-                    "src": "364:38:3",
+                    "src": "311:10:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
                     }
                   },
                   "id": 393,
                   "nodeType": "ExpressionStatement",
-                  "src": "364:38:3"
+                  "src": "311:10:3"
                 },
                 {
                   "expression": {
@@ -1354,14 +1256,14 @@
                     "leftHandSide": {
                       "argumentTypes": null,
                       "id": 394,
-                      "name": "name",
+                      "name": "betAmount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 367,
-                      "src": "408:4:3",
+                      "referencedDeclaration": 371,
+                      "src": "327:9:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_string_storage",
-                        "typeString": "string storage ref"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
                       }
                     },
                     "nodeType": "Assignment",
@@ -1369,25 +1271,25 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "id": 395,
-                      "name": "_name",
+                      "name": "_betAmount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 377,
-                      "src": "415:5:3",
+                      "referencedDeclaration": 381,
+                      "src": "339:10:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_string_memory_ptr",
-                        "typeString": "string memory"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
                       }
                     },
-                    "src": "408:12:3",
+                    "src": "327:22:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_string_storage",
-                      "typeString": "string storage ref"
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
                     }
                   },
                   "id": 397,
                   "nodeType": "ExpressionStatement",
-                  "src": "408:12:3"
+                  "src": "327:22:3"
                 },
                 {
                   "expression": {
@@ -1400,11 +1302,103 @@
                     "leftHandSide": {
                       "argumentTypes": null,
                       "id": 398,
+                      "name": "currentOracleRate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 373,
+                      "src": "355:17:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 399,
+                      "name": "_currentOracleRate",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 383,
+                      "src": "375:18:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "355:38:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 401,
+                  "nodeType": "ExpressionStatement",
+                  "src": "355:38:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 404,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 402,
+                      "name": "name",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 375,
+                      "src": "399:4:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 403,
+                      "name": "_name",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 385,
+                      "src": "406:5:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "399:12:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 405,
+                  "nodeType": "ExpressionStatement",
+                  "src": "399:12:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 408,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 406,
                       "name": "betChoice",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 369,
-                      "src": "426:9:3",
+                      "referencedDeclaration": 377,
+                      "src": "417:9:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1414,47 +1408,47 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 399,
+                      "id": 407,
                       "name": "_betChoice",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 379,
-                      "src": "438:10:3",
+                      "referencedDeclaration": 387,
+                      "src": "429:10:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "426:22:3",
+                    "src": "417:22:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "id": 401,
+                  "id": 409,
                   "nodeType": "ExpressionStatement",
-                  "src": "426:22:3"
+                  "src": "417:22:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 403,
+            "id": 411,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 380,
+              "id": 388,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 371,
+                  "id": 379,
                   "name": "_adr",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "205:20:3",
+                  "scope": 411,
+                  "src": "196:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1462,10 +1456,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 370,
+                    "id": 378,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "205:15:3",
+                    "src": "196:15:3",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -1477,11 +1471,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 373,
+                  "id": 381,
                   "name": "_betAmount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "227:15:3",
+                  "scope": 411,
+                  "src": "218:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1489,10 +1483,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 372,
+                    "id": 380,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "227:4:3",
+                    "src": "218:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1503,11 +1497,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 375,
+                  "id": 383,
                   "name": "_currentOracleRate",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "244:23:3",
+                  "scope": 411,
+                  "src": "235:23:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1515,10 +1509,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 374,
+                    "id": 382,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "244:4:3",
+                    "src": "235:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1529,11 +1523,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 377,
+                  "id": 385,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "269:19:3",
+                  "scope": 411,
+                  "src": "260:19:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1541,10 +1535,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 376,
+                    "id": 384,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "269:6:3",
+                    "src": "260:6:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -1555,11 +1549,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 379,
+                  "id": 387,
                   "name": "_betChoice",
                   "nodeType": "VariableDeclaration",
-                  "scope": 403,
-                  "src": "290:15:3",
+                  "scope": 411,
+                  "src": "281:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1567,10 +1561,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 378,
+                    "id": 386,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "290:4:3",
+                    "src": "281:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1580,25 +1574,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "204:102:3"
+              "src": "195:102:3"
             },
             "returnParameters": {
-              "id": 381,
+              "id": 389,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "314:0:3"
+              "src": "305:0:3"
             },
-            "scope": 430,
-            "src": "193:260:3",
+            "scope": 438,
+            "src": "184:260:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 428,
+              "id": 436,
               "nodeType": "Block",
-              "src": "529:188:3",
+              "src": "520:188:3",
               "statements": [
                 {
                   "condition": {
@@ -1607,7 +1601,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 421,
+                    "id": 429,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1618,7 +1612,7 @@
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       },
-                      "id": 415,
+                      "id": 423,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1629,19 +1623,19 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 412,
+                        "id": 420,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 410,
+                          "id": 418,
                           "name": "currentOracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 365,
-                          "src": "551:17:3",
+                          "referencedDeclaration": 373,
+                          "src": "542:17:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1651,18 +1645,18 @@
                         "operator": ">",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 411,
+                          "id": 419,
                           "name": "oracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 405,
-                          "src": "571:10:3",
+                          "referencedDeclaration": 413,
+                          "src": "562:10:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "551:30:3",
+                        "src": "542:30:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1672,7 +1666,7 @@
                       "operator": "&&",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 414,
+                        "id": 422,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1680,15 +1674,15 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "585:10:3",
+                        "src": "576:10:3",
                         "subExpression": {
                           "argumentTypes": null,
-                          "id": 413,
+                          "id": 421,
                           "name": "betChoice",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 369,
-                          "src": "586:9:3",
+                          "referencedDeclaration": 377,
+                          "src": "577:9:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1699,7 +1693,7 @@
                           "typeString": "bool"
                         }
                       },
-                      "src": "551:44:3",
+                      "src": "542:44:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -1713,7 +1707,7 @@
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       },
-                      "id": 420,
+                      "id": 428,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1724,19 +1718,19 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 418,
+                        "id": 426,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "argumentTypes": null,
-                          "id": 416,
+                          "id": 424,
                           "name": "currentOracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 365,
-                          "src": "609:17:3",
+                          "referencedDeclaration": 373,
+                          "src": "600:17:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1746,18 +1740,18 @@
                         "operator": "<",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 417,
+                          "id": 425,
                           "name": "oracleRate",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 405,
-                          "src": "629:10:3",
+                          "referencedDeclaration": 413,
+                          "src": "620:10:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "609:30:3",
+                        "src": "600:30:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1767,50 +1761,50 @@
                       "operator": "&&",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 419,
+                        "id": 427,
                         "name": "betChoice",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 369,
-                        "src": "643:9:3",
+                        "referencedDeclaration": 377,
+                        "src": "634:9:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       },
-                      "src": "609:43:3",
+                      "src": "600:43:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
                       }
                     },
-                    "src": "551:101:3",
+                    "src": "542:101:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": null,
-                  "id": 425,
+                  "id": 433,
                   "nodeType": "IfStatement",
-                  "src": "537:156:3",
+                  "src": "528:156:3",
                   "trueBody": {
-                    "id": 424,
+                    "id": 432,
                     "nodeType": "Block",
-                    "src": "661:32:3",
+                    "src": "652:32:3",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 422,
+                          "id": 430,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "680:4:3",
+                          "src": "671:4:3",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1818,10 +1812,10 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 409,
-                        "id": 423,
+                        "functionReturnParameters": 417,
+                        "id": 431,
                         "nodeType": "Return",
-                        "src": "673:11:3"
+                        "src": "664:11:3"
                       }
                     ]
                   }
@@ -1830,14 +1824,14 @@
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "66616c7365",
-                    "id": 426,
+                    "id": 434,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "707:5:3",
+                    "src": "698:5:3",
                     "subdenomination": null,
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
@@ -1845,31 +1839,31 @@
                     },
                     "value": "false"
                   },
-                  "functionReturnParameters": 409,
-                  "id": 427,
+                  "functionReturnParameters": 417,
+                  "id": 435,
                   "nodeType": "Return",
-                  "src": "700:12:3"
+                  "src": "691:12:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 429,
+            "id": 437,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "checkGame",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 406,
+              "id": 414,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 405,
+                  "id": 413,
                   "name": "oracleRate",
                   "nodeType": "VariableDeclaration",
-                  "scope": 429,
-                  "src": "483:15:3",
+                  "scope": 437,
+                  "src": "474:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1877,10 +1871,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 404,
+                    "id": 412,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "483:4:3",
+                    "src": "474:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1890,19 +1884,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "475:27:3"
+              "src": "466:27:3"
             },
             "returnParameters": {
-              "id": 409,
+              "id": 417,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 408,
+                  "id": 416,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 429,
-                  "src": "523:4:3",
+                  "scope": 437,
+                  "src": "514:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1910,10 +1904,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 407,
+                    "id": 415,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "523:4:3",
+                    "src": "514:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1923,20 +1917,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "522:6:3"
+              "src": "513:6:3"
             },
-            "scope": 430,
-            "src": "457:260:3",
+            "scope": 438,
+            "src": "448:260:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 431,
-        "src": "34:685:3"
+        "scope": 439,
+        "src": "25:685:3"
       }
     ],
-    "src": "0:720:3"
+    "src": "0:711:3"
   },
   "compiler": {
     "name": "solc",
@@ -1944,7 +1938,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-02-28T08:32:35.951Z",
+  "updatedAt": "2019-02-28T14:17:50.875Z",
   "devdoc": {
     "methods": {}
   },
