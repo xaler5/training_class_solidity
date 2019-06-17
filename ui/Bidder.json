@@ -6944,16 +6944,10 @@
       "links": {},
       "address": "0xBaee13182D9251f7e3FcD4804c0Dc8a8C551cdb0",
       "transactionHash": "0x2c7c384b0e7e245df3b51288877784e12e25edce7d1f0dfce8a90b29f9cf1277"
-    },
-    "1560751265859": {
-      "events": {},
-      "links": {},
-      "address": "0x45be5Db300b187861E5d93FbbF51C21733B500EB",
-      "transactionHash": "0x437c23fa172f05f892ff54e21cee7c3fef351cd1b101e6fb760a9ed3fa3a5852"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-06-17T06:57:58.428Z",
+  "updatedAt": "2019-06-16T16:24:02.702Z",
   "devdoc": {
     "methods": {}
   },

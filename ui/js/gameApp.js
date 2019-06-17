@@ -54,7 +54,7 @@ angular
             bidderContract = web3.eth.contract(
                 bidderJson.data.abi
             ).at(address);
-
+            
             web3.eth.getAccounts(function(error, result) {
                 accounts = result;
             });

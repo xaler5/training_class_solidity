@@ -16,7 +16,7 @@ angular
 
         oracleUi.connect = function (event, host, address) {
             event.preventDefault();
-
+            
             web3 = new Web3(new Web3.providers.HttpProvider(host));
 
             oracleContract = web3.eth.contract(
